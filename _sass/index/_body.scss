@@ -1,0 +1,71 @@
+.visible-active {
+  opacity: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc((100vh - #{$section-height}) / 2);
+  transition: opacity 1s ease;
+}
+
+.section-header {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.section-header div a {
+  color: black;
+  font-size: 0.8em;
+}
+.section-header div a:hover {
+  color: orangered;
+}
+
+.section-footer {
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+
+/* >> Custom Colors Background */
+.color-home {
+  background-color: $home-bg;
+}
+.color-about {
+  background-color: $about-bg;
+}
+.color-skills {
+  background-color: $skills-bg;
+}
+.color-projects {
+  background-color: $projects-bg;
+}
+.color-blog {
+  background-color: $blog-bg;
+}
+.color-contact {
+  background-color: $contact-bg;
+}
+/* >> Custom Colors Borders */
+#home {
+  border: 5px solid $home-color;
+}
+#about {
+  border: 5px solid $about-color;
+}
+#skills {
+  border: 5px solid $skills-color;
+}
+#projects {
+  border: 5px solid $projects-color;
+}
+#blog {
+  border: 5px solid $blog-color;
+}
+#contact {
+  border: 5px solid $contact-color;
+}

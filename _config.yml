@@ -1,0 +1,12 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package.json
+  - Gruntfile.js
+  - node_modules
+  - webpack
+  - .sass-cache
+
+excerpt_separator: <!--more-->
