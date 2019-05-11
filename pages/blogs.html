@@ -1,4 +1,22 @@
 ---
-layout: default
-title: All Blogs
+layout: sub-index
+title: Blog Index
 ---
+
+<div class="main-blog-index-area">
+  <h1>This is the blog page.</h1>
+
+  <ul>
+    {% for post in site.posts %}
+    <li class="blog-list-item">
+      <h4>{{ post.title_full }}</h4>
+      <h5>
+        Filed under {{ post.category }} on {{ post.date | date: "%m/%d/%Y" }}
+      </h5>
+      <p class="article-text">
+        {{ post.excerpt }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

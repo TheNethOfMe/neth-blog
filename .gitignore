@@ -2,4 +2,4 @@ node_modules/
 package-lock.json
 .DS_Store
 .sass-cache
-src/assets/*.js
+assets/*.js

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Arvo|Gugi|VT323");
+body {
+  background: url("/assets/img/work-station-bw.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100%; }
+
+main {
+  transition: background 1s ease;
+  width: calc(100% - 150px); }
+
+section {
+  background: linear-gradient(rgba(210, 210, 210, 0.75), rgba(210, 210, 210, 0.75)), url("/assets/img/hat-bg-no-logo.jpg");
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.2em;
+  height: 500px;
+  margin: calc((100vh - 500px) / 2) auto;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 1s ease;
+  width: 70%; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  font-size: 1.2em;
+  padding: 5px; }
+
+a {
+  font-family: sans-serif;
+  text-decoration: none; }
+
+h1 {
+  color: #7008eb;
+  font-family: "Gugi", cursive;
+  font-size: 1.3em;
+  padding-bottom: 7px; }
+
+h1:hover {
+  color: yellow; }
+
+h2 {
+  font-family: "Gugi", cursive;
+  font-size: 2em;
+  margin: 0; }
+
+.article-text {
+  font-family: "Arvo", serif; }
+
+.radioactive {
+  color: #098a00; }
+
+.main-blog-index-area {
+  background: rgba(206, 206, 206, 0.8); }
