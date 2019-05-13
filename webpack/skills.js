@@ -26,7 +26,7 @@ const skillCards = [
       "So far, I’ve talked about what I use regularly, but I do like trying out new things and moving outside of my tech comfort zone. I’ve used a wide array of tools in the past (and probably will again), like Ruby on Rails, C#/.Net, Jekyll (hey, like this blog!), and Wordpress."
   }
 ];
-
+const baseurl = window.location.origin;
 const populateCard = card => {
   $skillsCard.find("h3").hide();
   $skillsCard.find("h3").text(card.title);
@@ -38,7 +38,9 @@ const populateCard = card => {
   //
   let $newImgCards = $(".skills-card-images").clone(true);
   card.images.forEach((img, i) => {
-    const imageLink = window.location + "/assets/img/skills/" + img + ".jpg";
+    // const imageLink = "/assets/img/skills/" + img + ".jpg";
+    const imageLink = `${baseurl}/assets/img/skills/${img}.jpg`;
+    console.log("IMG", `${baseurl}/assets/img/skills/${img}.jpg`);
     $newImgCards
       .find(".skills-img")
       .eq(i)
