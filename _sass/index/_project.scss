@@ -9,14 +9,14 @@
 }
 
 .project-title-1 {
-  background-image: url("/assets/img/projects/test1.jpg");
+  background-image: url($baseurl+"/assets/img/projects/test1.jpg");
   background-size: cover;
   height: 150px;
   margin: 0;
 }
 
 .project-title-2 {
-  background-image: url("/assets/img/projects/test3.jpg");
+  background-image: url($baseurl+"/assets/img/projects/test3.jpg");
   background-size: cover;
   height: 150px;
   margin: 0;
