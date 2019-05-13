@@ -1,285 +1,131 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black|Arvo|Gugi|VT323");
-body {
-  background: url("/assets/img/work-station-bw.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  width: 100%; }
+body { background: url("/assets/img/work-station-bw.png"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: row; margin: 0; width: 100%; }
 
-main {
-  transition: background 1s ease;
-  width: calc(100% - 150px); }
+main { transition: background 1s ease; width: calc(100% - 150px); }
 
-section {
-  background: linear-gradient(rgba(210, 210, 210, 0.75), rgba(210, 210, 210, 0.75)), url("/assets/img/hat-bg-no-logo.jpg");
-  font-family: "Archivo Black", sans-serif;
-  font-size: 1.2em;
-  height: 500px;
-  margin: calc((100vh - 500px) / 2) auto;
-  opacity: 0;
-  text-align: center;
-  transition: opacity 1s ease;
-  width: 70%; }
+section { background: linear-gradient(rgba(210, 210, 210, 0.75), rgba(210, 210, 210, 0.75)), url("/assets/img/hat-bg-no-logo.jpg"); font-family: "Archivo Black", sans-serif; font-size: 1.2em; height: 500px; margin: calc((100vh - 500px) / 2) auto; opacity: 0; text-align: center; transition: opacity 1s ease; width: 70%; }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
+ul { list-style-type: none; margin: 0; padding: 0; }
 
-li {
-  font-size: 1.2em;
-  padding: 5px; }
+li { font-size: 1.2em; padding: 5px; }
 
-a {
-  font-family: sans-serif;
-  text-decoration: none; }
+a { font-family: sans-serif; text-decoration: none; }
 
-h1 {
-  color: #7008eb;
-  font-family: "Gugi", cursive;
-  font-size: 1.3em;
-  padding-bottom: 7px; }
+h1 { color: #7008eb; font-family: "Gugi", cursive; font-size: 1.3em; padding-bottom: 7px; }
 
-h1:hover {
-  color: yellow; }
+h1:hover { color: yellow; }
 
-h2 {
-  font-family: "Gugi", cursive;
-  font-size: 2em;
-  margin: 0; }
+h2 { font-family: "Gugi", cursive; font-size: 2em; margin: 0; }
 
-.article-text {
-  font-family: "Arvo", serif; }
+.article-text { font-family: "Arvo", serif; }
 
-.radioactive {
-  color: #098a00; }
+.radioactive { color: #098a00; }
 
-.visible-active {
-  opacity: 1;
-  position: -webkit-sticky;
-  position: sticky;
-  top: calc((100vh - 500px) / 2);
-  transition: opacity 1s ease; }
+.visible-active { opacity: 1; position: -webkit-sticky; position: sticky; top: calc((100vh - 500px) / 2); transition: opacity 1s ease; }
 
-.section-header {
-  align-items: baseline;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  text-align: left; }
+.section-header { align-items: baseline; display: flex; flex-direction: row; justify-content: flex-start; text-align: left; }
 
-.section-header div a {
-  color: black;
-  font-size: 0.8em; }
+.section-header div a { color: black; font-size: 0.8em; }
 
-.section-header div a:hover {
-  color: orangered; }
+.section-header div a:hover { color: orangered; }
 
-.section-footer {
-  bottom: 0;
-  right: 0;
-  padding-bottom: 10px;
-  margin: 0 auto;
-  position: absolute;
-  width: 100%; }
+.section-footer { bottom: 0; right: 0; padding-bottom: 10px; margin: 0 auto; position: absolute; width: 100%; }
 
 /* >> Custom Colors Background */
-.color-home {
-  background-color: rgba(112, 8, 235, 0.35); }
+.color-home { background-color: rgba(112, 8, 235, 0.35); }
 
-.color-about {
-  background-color: rgba(239, 56, 40, 0.35); }
+.color-about { background-color: rgba(239, 56, 40, 0.35); }
 
-.color-skills {
-  background-color: rgba(36, 233, 15, 0.35); }
+.color-skills { background-color: rgba(36, 233, 15, 0.35); }
 
-.color-projects {
-  background-color: rgba(190, 214, 0, 0.35); }
+.color-projects { background-color: rgba(190, 214, 0, 0.35); }
 
-.color-blog {
-  background-color: rgba(4, 23, 244, 0.35); }
+.color-blog { background-color: rgba(4, 23, 244, 0.35); }
 
-.color-contact {
-  background-color: rgba(244, 152, 4, 0.35); }
+.color-contact { background-color: rgba(244, 152, 4, 0.35); }
 
 /* >> Custom Colors Borders */
-#home {
-  border: 5px solid #7008eb; }
+#home { border: 5px solid #7008eb; }
 
-#about {
-  border: 5px solid #ef3828; }
+#about { border: 5px solid #ef3828; }
 
-#skills {
-  border: 5px solid #24e90f; }
+#skills { border: 5px solid #24e90f; }
 
-#projects {
-  border: 5px solid #bed600; }
+#projects { border: 5px solid #bed600; }
 
-#blog {
-  border: 5px solid #0417f4; }
+#blog { border: 5px solid #0417f4; }
 
-#contact {
-  border: 5px solid #f49804; }
+#contact { border: 5px solid #f49804; }
 
-table {
-  margin: 0 auto; }
+table { margin: 0 auto; }
 
-td {
-  height: 70px;
-  font-size: 0.8em;
-  width: 70px; }
+td { height: 70px; font-size: 0.8em; width: 70px; }
 
 /* > About Me Section */
-#factsArea {
-  background-color: black;
-  color: #ef3828;
-  font-family: "VT323", monospace; }
+#factsArea { background-color: black; color: #ef3828; font-family: "VT323", monospace; }
 
-#nethFacts {
-  animation: textFlash 0.8s 3; }
+#nethFacts { animation: textFlash 0.8s 3; }
 
-@keyframes textFlash {
-  0% {
-    color: #ef3828; }
-  49% {
-    color: black; }
-  50% {
-    color: black; }
-  99% {
-    color: black; }
-  100% {
-    color: #ef3828; } }
-.skills-card-title {
-  font-family: "Gugi", cursive; }
+@keyframes textFlash { 0% { color: #ef3828; }
+  49% { color: black; }
+  50% { color: black; }
+  99% { color: black; }
+  100% { color: #ef3828; } }
+.skills-card-title { font-family: "Gugi", cursive; }
 
-.skills-img {
-  animation: spinner 2s 1;
-  border-radius: 25px;
-  margin: 5px;
-  width: 75px; }
+.skills-img { animation: spinner 2s 1; border-radius: 25px; margin: 5px; width: 75px; }
 
-.skills-card-desc {
-  font-family: "Arvo", serif;
-  margin: 5px auto;
-  width: 80%; }
+.skills-card-desc { font-family: "Arvo", serif; margin: 5px auto; width: 80%; }
 
-.skills-play-pause {
-  border-radius: 25%;
-  font-size: 1.5em; }
+.skills-play-pause { border-radius: 25%; font-size: 1.5em; }
 
-.skills-nav-dots {
-  align-items: center;
-  display: flex;
-  justify-content: center; }
+.skills-nav-dots { align-items: center; display: flex; justify-content: center; }
 
-.skills-nav-dots span {
-  padding: 5px;
-  -webkit-transition: all 1s linear;
-  -moz-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 0.5s linear; }
+.skills-nav-dots span { padding: 5px; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -o-transition: all 1s linear; transition: all 0.5s linear; }
 
-.dot-active {
-  font-size: 2em; }
+.dot-active { font-size: 2em; }
 
-@keyframes spinner {
-  from {
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg); }
-  to {
-    -moz-transform: rotateY(-360deg);
-    -ms-transform: rotateY(-360deg);
-    transform: rotateY(-360deg); } }
-.project-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+@keyframes spinner { from { -moz-transform: rotateY(0deg); -ms-transform: rotateY(0deg); transform: rotateY(0deg); }
+  to { -moz-transform: rotateY(-360deg); -ms-transform: rotateY(-360deg); transform: rotateY(-360deg); } }
+.project-cards { display: flex; flex-direction: row; justify-content: space-around; }
 
-.project {
-  width: 45%; }
+.project { width: 45%; }
 
-.project-title-1 {
-  background-image: url("/assets/img/projects/test1.jpg");
-  background-size: cover;
-  height: 150px;
-  margin: 0; }
+.project-title-1 { background-image: url("/assets/img/projects/test1.jpg"); background-size: cover; height: 150px; margin: 0; }
 
-.project-title-2 {
-  background-image: url("/assets/img/projects/test3.jpg");
-  background-size: cover;
-  height: 150px;
-  margin: 0; }
+.project-title-2 { background-image: url("/assets/img/projects/test3.jpg"); background-size: cover; height: 150px; margin: 0; }
 
-.project p {
-  font-size: 0.8em;
-  font-family: "Arvo", serif; }
+.project p { font-size: 0.8em; font-family: "Arvo", serif; }
 
-.blog-list-item {
-  text-align: left; }
+.blog-list-item { text-align: left; }
 
-.blog-list-item h4 {
-  margin: 4px 0; }
+.blog-list-item h4 { margin: 4px 0; }
 
-.blog-list-item h5 {
-  font-size: 0.6em;
-  margin: 8px; }
+.blog-list-item h5 { font-size: 0.6em; margin: 8px; }
 
-.blog-list-item p {
-  font-family: "Arvo", serif;
-  font-size: 0.8em; }
+.blog-list-item p { font-family: "Arvo", serif; font-size: 0.8em; }
 
-#menu {
-  background-color: #333;
-  height: 100vh;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 150px; }
+#menu { background-color: #333; height: 100vh; position: -webkit-sticky; position: sticky; top: 0; width: 150px; }
 
-.brand {
-  color: #eee;
-  margin: auto;
-  text-align: center; }
+.brand { color: #eee; margin: auto; text-align: center; }
 
-.brand img {
-  border-radius: 50%;
-  display: block;
-  margin: 5px auto;
-  width: 90%; }
+.brand img { border-radius: 50%; display: block; margin: 5px auto; width: 90%; }
 
-.menu-link {
-  color: #eee;
-  display: block;
-  font-family: sans-serif;
-  padding: 5px; }
+.menu-link { color: #eee; display: block; font-family: sans-serif; padding: 5px; }
 
-.menu-link:hover {
-  background-color: #555;
-  color: yellow; }
+.menu-link:hover { background-color: #555; color: yellow; }
 
-.menu-active {
-  font-weight: bold; }
+.menu-active { font-weight: bold; }
 
-.menu-active[data-color="home"] {
-  color: #7008eb; }
+.menu-active[data-color="home"] { color: #7008eb; }
 
 /* Menu Link Colors */
-.menu-active[data-color="about"] {
-  color: #ef3828; }
+.menu-active[data-color="about"] { color: #ef3828; }
 
-.menu-active[data-color="skills"] {
-  color: #24e90f; }
+.menu-active[data-color="skills"] { color: #24e90f; }
 
-.menu-active[data-color="projects"] {
-  color: #bed600; }
+.menu-active[data-color="projects"] { color: #bed600; }
 
-.menu-active[data-color="blog"] {
-  color: #0417f4; }
+.menu-active[data-color="blog"] { color: #0417f4; }
 
-.menu-active[data-color="contact"] {
-  color: #f49804; }
+.menu-active[data-color="contact"] { color: #f49804; }

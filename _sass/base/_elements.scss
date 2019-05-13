@@ -1,5 +1,5 @@
 body {
-  background: url("./assets/img/work-station-bw.png");
+  background: url($baseurl+"/assets/img/work-station-bw.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ section {
       rgba(210, 210, 210, 0.75),
       rgba(210, 210, 210, 0.75)
     ),
-    url("/assets/img/hat-bg-no-logo.jpg");
+    url($baseurl+"/assets/img/hat-bg-no-logo.jpg");
   font-family: $sans-font;
   font-size: 1.2em;
   height: $section-height;
