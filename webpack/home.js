@@ -8,46 +8,46 @@ const gridCols = 8;
 
 const defaultPics = [
   [
-    "/assets/img/skills/html",
-    "/assets/img/skills/css",
-    "/assets/img/skills/javascript",
-    "/assets/img/skills/csharp"
+    "assets/img/skills/html",
+    "assets/img/skills/css",
+    "assets/img/skills/javascript",
+    "assets/img/skills/csharp"
   ],
   [
-    "/assets/img/projects/test1",
-    "/assets/img/projects/test2",
-    "/assets/img/projects/test3",
-    "/assets/img/projects/test4"
+    "assets/img/projects/test1",
+    "assets/img/projects/test2",
+    "assets/img/projects/test3",
+    "assets/img/projects/test4"
   ],
   [
-    "/assets/img/skills/mongo",
-    "/assets/img/skills/express",
-    "/assets/img/skills/react",
-    "/assets/img/skills/node"
+    "assets/img/skills/mongo",
+    "assets/img/skills/express",
+    "assets/img/skills/react",
+    "assets/img/skills/node"
   ],
   [
-    "/assets/img/projects/test5",
-    "/assets/img/projects/test6",
-    "/assets/img/projects/test7",
-    "/assets/img/projects/test8"
+    "assets/img/projects/test5",
+    "assets/img/projects/test6",
+    "assets/img/projects/test7",
+    "assets/img/projects/test8"
   ],
   [
-    "/assets/img/skills/rubyrails",
-    "/assets/img/skills/wordpress",
-    "/assets/img/skills/bootstrap",
-    "/assets/img/skills/gimp"
+    "assets/img/skills/rubyrails",
+    "assets/img/skills/wordpress",
+    "assets/img/skills/bootstrap",
+    "assets/img/skills/gimp"
   ],
   [
-    "/assets/img/projects/test9",
-    "/assets/img/projects/test10",
-    "/assets/img/projects/test11",
-    "/assets/img/projects/test12"
+    "assets/img/projects/test9",
+    "assets/img/projects/test10",
+    "assets/img/projects/test11",
+    "assets/img/projects/test12"
   ],
   [
-    "/assets/img/skills/github",
-    "/assets/img/skills/webpack",
-    "/assets/img/skills/vue",
-    "/assets/img/skills/jqeury"
+    "assets/img/skills/github",
+    "assets/img/skills/webpack",
+    "assets/img/skills/vue",
+    "assets/img/skills/jqeury"
   ]
 ];
 
