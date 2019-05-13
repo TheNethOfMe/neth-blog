@@ -38,7 +38,7 @@ const populateCard = card => {
   //
   let $newImgCards = $(".skills-card-images").clone(true);
   card.images.forEach((img, i) => {
-    const imageLink = "/assets/img/skills/" + img + ".jpg";
+    const imageLink = window.location + "/assets/img/skills/" + img + ".jpg";
     $newImgCards
       .find(".skills-img")
       .eq(i)
