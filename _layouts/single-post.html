@@ -12,7 +12,7 @@
       <h1>{{ page.title_full }}</h1>
       <h5>
         <a href="/">Home</a>
-        <a href="/pages/blogs-idx.html">Back</a>
+        <a href="{{ '/pages/blogs-idx.html' | relative_url }}">Back</a>
       </h5>
       <h3>
         Filed under {{ page.category }} on {{ page.date | date: "%m/%d/%Y" }}
@@ -22,7 +22,7 @@
       </p>
       <h5>
         <a href="/">Home</a>
-        <a href="/pages/blogs-idx.html">Back</a>
+        <a href="{{ '/pages/blogs-idx.html' | relative_url }}">Back</a>
       </h5>
     </div>
   </body>

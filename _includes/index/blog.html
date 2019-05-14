@@ -16,7 +16,7 @@
   <ul>
     {% for post in site.posts %}
     <li class="blog-list-item">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         <h4>{{ post.title_full }}</h4>
       </a>
       <h5>
@@ -29,6 +29,8 @@
     {% endfor %}
   </ul>
   <footer class="section-footer">
-    <a href="/pages/blogs-idx.html"><h3>View Blog Index</h3></a>
+    <a href="{{ '/pages/blogs-idx.html' | relative_url }}">
+      <h3>View Blog Index</h3>
+    </a>
   </footer>
 </section>
