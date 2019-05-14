@@ -11,7 +11,7 @@
     <div class="main-blog-area">
       <h1>{{ page.title_full }}</h1>
       <h5>
-        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ site.baseurl }}/pages/blogs-idx.html">Back</a>
       </h5>
       <h3>
@@ -21,7 +21,7 @@
         {{ content }}
       </p>
       <h5>
-        <a href="/">Home</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ site.baseurl }}/pages/blogs-idx.html">Back</a>
       </h5>
     </div>
