@@ -16,7 +16,9 @@
   <ul>
     {% for post in site.posts %}
     <li class="blog-list-item">
-      <h4>{{ post.title_full }}</h4>
+      <a href="{{ post.url }}">
+        <h4>{{ post.title_full }}</h4>
+      </a>
       <h5>
         Filed under {{ post.category }} on {{ post.date | date: "%m/%d/%Y" }}
       </h5>
@@ -27,6 +29,6 @@
     {% endfor %}
   </ul>
   <footer class="section-footer">
-    <a href="/pages/blogs.html"><h3>View Blog Index</h3></a>
+    <a href="/pages/blogs-idx.html"><h3>View Blog Index</h3></a>
   </footer>
 </section>

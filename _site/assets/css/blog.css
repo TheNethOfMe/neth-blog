@@ -21,4 +21,4 @@ h2 { font-family: "Gugi", cursive; font-size: 2em; margin: 0; }
 
 .radioactive { color: #098a00; }
 
-.main-blog-index-area { background: rgba(206, 206, 206, 0.8); }
+.main-blog-area { background: rgba(206, 206, 206, 0.8); padding-left: 15px; }
