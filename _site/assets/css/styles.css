@@ -109,6 +109,14 @@ td { height: 70px; font-size: 0.8em; width: 70px; }
 
 .blog-list-item p { font-family: "Arvo", serif; font-size: 0.8em; }
 
+.contact-form-group { display: flex; flex-direction: column; margin: 4px auto; width: 75%; }
+.contact-form-group label { text-align: left; }
+
+.contact-form-group input, .contact-form-group textarea, .contact-form-group button { font-family: "Arvo", serif; font-size: 1.1em; }
+
+.contact-submit-button { background-color: #f49804; border-color: black; }
+.contact-submit-button:hover { background-color: #ffc184; cursor: pointer; }
+
 #menu { background-color: #333; height: 100vh; position: -webkit-sticky; position: sticky; top: 0; width: 150px; }
 
 .brand { color: #eee; margin: auto; text-align: center; }
