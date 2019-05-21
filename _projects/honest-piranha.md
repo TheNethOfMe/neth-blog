@@ -20,19 +20,19 @@ In this document, I'm going to show you how the front-end works. It's my hope th
 
 Anyone who comes to the site can enjoy the content and navigate through the site without needing to log in or sign up.
 
-![Screen displayed at HonestPirana Landing Site]({{ site.baseurl }}./\_main.png)
+![Screen displayed at HonestPirana Landing Site]({{ site.baseurl }}/assets/img/honpron/main.png)
 
 Visitors can view all entries in a specific series by clicking on the link in the menu. They can also view all entries that are videos or podcasts by clicking on the appropriate link.
 
-![Menu]({{ site.baseurl }}./\_menu.png)
+![Menu]({{ site.baseurl }}/assets/img/honpron/menu.png)
 
 When a visitor selects an entry from the main menu, they'll be redirected to a page for that entry where they can play the video or podcast and view comments below if there are approved comments for that particular entry.
 
-![A Single Video Entry]({{ site.baseurl }}./\_entry.png)
+![A Single Video Entry]({{ site.baseurl }}/assets/img/honpron/entry.png)
 
 If a visitor has an account, they can log in using the "Login" link in the navbar. If they don't have an account, they can create one using the "Sign Up" link.
 
-![Navbar Links]({{ site.baseurl }}./\_navbar.png)
+![Navbar Links]({{ site.baseurl }}/assets/img/honpron/navbar.png)
 
 ## User Features
 
@@ -40,15 +40,15 @@ If a visitor has an account, they can log in using the "Login" link in the navba
 
 Users who register an account and sign in will have access to the comment section. They can leave a comment and submit it under any entry in that entry's page. Please note that comments must be approved by an administrator before they will appear.
 
-![Comment Section for Users]({{ site.baseurl }}./user_comments.png)
+![Comment Section for Users]({{ site.baseurl }}/assets/img/honpron/user_comments.png)
 
 When a user is logged in, their name will appear in the navbar as will an option to logout instead of the "Sign Up" and "Login" links.
 
-![Navbar as it appears to logged in users]({{ site.baseurl }}./user_logged_in.png)
+![Navbar as it appears to logged in users]({{ site.baseurl }}/assets/img/honpron/user_logged_in.png)
 
 Users can go to their dashboard by clicking on their name in the nav.
 
-![User dashboard]({{ site.baseurl }}./user_dashboard.png)
+![User dashboard]({{ site.baseurl }}/assets/img/honpron/user_dashboard.png)
 
 ### Private Messages
 
@@ -74,13 +74,13 @@ Liking entries is a feature that will be added in the near future! When a user c
 
 Administrator accounts can only be created by other Administrators. Admins have many more options available to them in their dashboard than regular users do.
 
-![Admin Dashboard]({{ site.baseurl }}./admin_dash.png)
+![Admin Dashboard]({{ site.baseurl }}/assets/img/honpron/admin_dash.png)
 
 ### Messages
 
 Admins can message other users and check their own messages just like regular users. However, they also have an option called "Check Honest Piranha Messages" which lets them check tickets sent to the site by other users. They can choose to close a ticket with a response to the original sender or without sending one. You may notice that there is a blue border on the left side of the ticket displayed below...
 
-![Example of a ticket in the Honest Piranha Messages area]({{ site.baseurl }}./admin_tickets_list)
+![Example of a ticket in the Honest Piranha Messages area]({{ site.baseurl }}/assets/img/honpron/admin_tickets_list.png)
 
 This one is blue because the content of the message hasn't triggered the comment coding system. By default, all messages are labeled as "code-blue", however, if a user uses certain words, this will be found automatically and make the message either "code-yellow" or "code-red" depending on what they've said. This gives administrators a head's up that the user may be using offensive language.
 
@@ -92,19 +92,19 @@ Finally, there are tabs for "Closed" and "Blacklist". Admins have the ability to
 
 "Entries You've Liked" and "Review Your Comments" work just like they do for standard users. "Create a New Series" lets the admin create a new series. They will be required to mark the new series as a video, podcast, or blog series.
 
-![Create Series Screen]({{ site.baseurl }}./admin_series.png)
+![Create Series Screen]({{ site.baseurl }}/assets/img/honpron/admin_series.png)
 
 "Create New Entry" lets the admin create a new entry that will appear for visitors and users on the main page. When they select video, podcast, or blog, the dropdown list of series names will update with the names of series for that particular entry type.
 
-![Create Entry Form]({{ site.baseurl }}./admin_create_entry.png)
+![Create Entry Form]({{ site.baseurl }}/assets/img/honpron/admin_create_entry.png)
 
 "Edit/Delete Entries" will display a list of entries giving the admin the option to edit or delete each one.
 
-![List of entries from edit/delete list]({{ site.baseurl }}./admin_edit_list.png)
+![List of entries from edit/delete list]({{ site.baseurl }}/assets/img/honpron/admin_edit_list.png)
 
 Editing the entry will update the entry data in the database. Deleting the entry will drop it from the database entirely and can't be undone. Admins will be warned of this when they click the delete button to prevent accidental deletions.
 
-![Warning before Deleting an Entry]({{ site.baseurl }}./admin_delete.png)
+![Warning before Deleting an Entry]({{ site.baseurl }}/assets/img/honpron/admin_delete.png)
 
 ### Admin/Users
 
