@@ -5,11 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/project.css' | relative_url }}"
+    />
   </head>
   <body>
-    <main>
-      {{ content }}
-    </main>
+    <div class="container">
+      <header class="project-header">
+        <h1>{{ page.title }}</h1>
+        <nav class="project-nav">
+          <a href="{{ '/' | relative_url }}">
+            <i class="fas fa-home"></i>Home
+          </a>
+        </nav>
+      </header>
+      <main>
+        {{ content }}
+      </main>
+      <footer class="project-footer">
+        <h5>
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </h5>
+      </footer>
+    </div>
   </body>
 </html>

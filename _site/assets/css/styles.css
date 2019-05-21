@@ -91,9 +91,9 @@ td { height: 70px; font-size: 0.8em; width: 70px; }
 
 .project-cards { display: flex; flex-direction: row; justify-content: space-around; }
 
-.project-1 { background-image: url("/assets/img/projects/test1.jpg"); }
+.project-1 { background-image: url("/assets/img/projects/honpron.jpg"); }
 
-.project-2 { background-image: url("/assets/img/projects/test3.jpg"); }
+.project-2 { background-image: url("/assets/img/projects/90snotebook.jpg"); }
 
 .project-title { height: 100px; margin: 0; }
 

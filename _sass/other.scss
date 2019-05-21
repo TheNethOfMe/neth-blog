@@ -1,0 +1,40 @@
+@import "base/fonts";
+@import "base/colors";
+@import "base/measures";
+@import "base/elements";
+@import "base/utility";
+
+.container {
+  background-color: $other-bg;
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  text-align: center;
+  h1 {
+    font-size: 2em;
+  }
+}
+
+nav a {
+  padding: 5px;
+}
+
+main {
+  margin: 0 auto;
+  width: 95%;
+  p {
+    display: flex;
+    font-size: 1.4em;
+    img {
+      margin: 0 auto;
+      max-width: 95%;
+      align-self: center;
+    }
+  }
+}
+
+article {
+  font-size: 0.7em;
+}

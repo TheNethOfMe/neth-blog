@@ -3,24 +3,18 @@ layout: sub-index
 title: Blog Index
 ---
 
-<div class="main-blog-area">
-  <h1>Blog Index</h1>
-  <h5>
-    <a href="{{ '/' | relative_url }}">Home</a>
-  </h5>
-  <ul>
-    {% for post in site.posts %}
-    <li class="blog-list-item">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h4>{{ post.title_full }}</h4>
-      </a>
-      <h5>
-        Filed under {{ post.category }} on {{ post.date | date: "%m/%d/%Y" }}
-      </h5>
-      <p class="article-text">
-        {{ post.excerpt }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul>
+  {% for post in site.posts %}
+  <li class="blog-list-item">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <h4>{{ post.title_full }}</h4>
+    </a>
+    <h5>
+      Filed under {{ post.category }} on {{ post.date | date: "%m/%d/%Y" }}
+    </h5>
+    <article>
+      {{ post.excerpt }}
+    </article>
+  </li>
+  {% endfor %}
+</ul>
