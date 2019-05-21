@@ -13,12 +13,12 @@
 }
 
 .project-1 {
-  background-image: url($baseurl+"/assets/img/projects/test1.jpg");
+  background-image: url($baseurl+"/assets/img/projects/honpron.jpg");
   @extend %project-area;
 }
 
 .project-2 {
-  background-image: url($baseurl+"/assets/img/projects/test3.jpg");
+  background-image: url($baseurl+"/assets/img/projects/90snotebook.jpg");
   @extend %project-area;
 }
 

@@ -14,10 +14,10 @@ const defaultPics = [
     "assets/img/skills/csharp"
   ],
   [
-    "assets/img/projects/test1",
-    "assets/img/projects/test2",
-    "assets/img/projects/test3",
-    "assets/img/projects/test4"
+    "assets/img/projects/honpron",
+    "assets/img/projects/rainyday",
+    "assets/img/projects/90snotebook",
+    "assets/img/projects/jag"
   ],
   [
     "assets/img/skills/mongo",
@@ -26,10 +26,10 @@ const defaultPics = [
     "assets/img/skills/node"
   ],
   [
-    "assets/img/projects/test5",
-    "assets/img/projects/test6",
-    "assets/img/projects/test7",
-    "assets/img/projects/test8"
+    "assets/img/projects/calculator",
+    "assets/img/projects/charttest",
+    "assets/img/projects/pogs",
+    "assets/img/projects/flyingtoaster"
   ],
   [
     "assets/img/skills/rubyrails",
@@ -38,10 +38,10 @@ const defaultPics = [
     "assets/img/skills/gimp"
   ],
   [
-    "assets/img/projects/test9",
-    "assets/img/projects/test10",
-    "assets/img/projects/test11",
-    "assets/img/projects/test12"
+    "assets/img/projects/rambling",
+    "assets/img/projects/tictactoe",
+    "assets/img/projects/tomato",
+    "assets/img/projects/vgquote"
   ],
   [
     "assets/img/skills/github",

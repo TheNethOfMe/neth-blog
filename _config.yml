@@ -10,3 +10,8 @@ exclude:
   - .sass-cache
 
 excerpt_separator: <!--more-->
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:title
