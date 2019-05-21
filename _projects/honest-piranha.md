@@ -5,6 +5,7 @@ slug: honpron
 hero: honpron.jpg
 hero-alt: Honest Piranha main page
 link: honestpiranha.com
+github: honest-piranha
 ---
 
 This is a landing page I've created in the MERN stack for my YouTube videos and podcasts. I created this to solve several problems I see when trying to create a personal "brand" for online entertainment.
