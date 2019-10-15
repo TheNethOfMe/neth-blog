@@ -1,65 +1,25 @@
 body {
-  background: url($baseurl+"/assets/img/work-station-bw.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("../img/home-office.jpg");
   background-size: cover;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+#container {
+  height: 100%;
+  transition: 0.4s;
   width: 100%;
 }
 
-main {
-  transition: background 1s ease;
-  width: calc(100% - 150px);
-}
-
-section {
-  background: linear-gradient(
-      rgba(210, 210, 210, 0.75),
-      rgba(210, 210, 210, 0.75)
-    ),
-    url($baseurl+"/assets/img/hat-bg-no-logo.jpg");
-  font-family: $sans-font;
-  font-size: 1.2em;
-  height: $section-height;
-  margin: calc((100vh - #{$section-height}) / 2) auto;
-  opacity: 0;
-  text-align: center;
-  transition: opacity 1s ease;
-  width: 70%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  font-size: 1.2em;
-  padding: 5px;
-}
-
-a {
-  font-family: sans-serif;
-  text-decoration: none;
-}
-
 h1 {
-  color: $home-color;
-  font-family: $title-font;
-  font-size: 1.3em;
-  padding-bottom: 7px;
-}
-
-h1:hover {
-  color: yellow;
-}
-
-h2 {
-  font-family: $title-font;
-  font-size: 2em;
-  margin: 0;
+  background-image: url("../img/home-office.jpg");
+  background-size: cover;
+  color: $home;
+  padding: 20px;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-fill-color: rgba(220, 220, 220, 0.5);
+  -webkit-background-clip: text;
+  background-clip: text;
 }

@@ -1,0 +1,42 @@
+#info {
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+  font-size: 1.6em;
+  margin: 0 auto;
+  padding: 8px 0;
+  text-align: center;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.container-bg-home {
+  background: $home-bg;
+}
+.info-home {
+  background: $home;
+}
+.container-bg-web {
+  background: $web-bg;
+}
+.info-web {
+  background: $web;
+}
+.container-bg-pod {
+  background: $pod-bg;
+}
+.info-pod {
+  background: $pod;
+}
+.container-bg-blog {
+  background: $blog-bg;
+}
+.info-blog {
+  background: $blog;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  margin: 28px auto;
+  width: 90%;
+}

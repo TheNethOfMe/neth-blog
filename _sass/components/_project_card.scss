@@ -1,0 +1,14 @@
+.project-card {
+  background: $web;
+  border-radius: 25px;
+  text-align: center;
+  width: 45%;
+  h3 {
+    font-size: 1.3em;
+    padding: 4px;
+  }
+  img {
+    padding: 8px;
+    width: 90%;
+  }
+}

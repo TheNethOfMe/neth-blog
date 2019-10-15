@@ -3,9 +3,10 @@ layout: project
 title: My 90s Notebook
 slug: 90snotebook
 hero: 90snotebook.jpg
-hero-alt: My 90s Notebook main page
+alt: My 90s Notebook main page
 link: my90snotebook.com
-github: new90snotebook
+github: my-90s-notebook
+desc: A fun social media project with a heavy 90s asthetic
 ---
 
 # My 90s Notebook

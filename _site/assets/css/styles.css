@@ -1,143 +1,60 @@
-@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Arvo|Gugi|VT323");
-body { background: url("/assets/img/work-station-bw.png"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: row; margin: 0; width: 100%; }
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
-main { transition: background 1s ease; width: calc(100% - 150px); }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
-section { background: linear-gradient(rgba(210, 210, 210, 0.75), rgba(210, 210, 210, 0.75)), url("/assets/img/hat-bg-no-logo.jpg"); font-family: "Archivo Black", sans-serif; font-size: 1.2em; height: 500px; margin: calc((100vh - 500px) / 2) auto; opacity: 0; text-align: center; transition: opacity 1s ease; width: 70%; }
+body { line-height: 1; }
 
-ul { list-style-type: none; margin: 0; padding: 0; }
+ol, ul { list-style: none; }
 
-li { font-size: 1.2em; padding: 5px; }
+blockquote, q { quotes: none; }
 
-a { font-family: sans-serif; text-decoration: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
 
-h1 { color: #7008eb; font-family: "Gugi", cursive; font-size: 1.3em; padding-bottom: 7px; }
+table { border-collapse: collapse; border-spacing: 0; }
 
-h1:hover { color: yellow; }
+body { background: url("../img/home-office.jpg"); background-size: cover; height: 100vh; font-family: sans-serif; }
 
-h2 { font-family: "Gugi", cursive; font-size: 2em; margin: 0; }
+#container { height: 100%; transition: 0.4s; width: 100%; }
 
-.article-text { font-family: "Arvo", serif; }
+h1 { background-image: url("../img/home-office.jpg"); background-size: cover; color: #df7ef7; padding: 20px; font-size: 4em; font-weight: bold; text-align: center; -webkit-text-fill-color: rgba(220, 220, 220, 0.5); -webkit-background-clip: text; background-clip: text; }
 
-.radioactive { color: #098a00; }
+.buttons { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; margin: 8px auto; width: 90%; }
 
-.visible-active { opacity: 1; position: -webkit-sticky; position: sticky; top: calc((100vh - 500px) / 2); transition: opacity 1s ease; }
+button { border: black 3px solid; border-radius: 25px; -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); font-size: 1.4em; height: 100px; transition: 0.4s; width: 200px; }
 
-.section-header { align-items: baseline; display: flex; flex-direction: row; justify-content: flex-start; text-align: left; }
+button:hover { -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); cursor: pointer; }
 
-.section-header div a { color: black; font-size: 0.8em; }
+.web-btn { background: #d84949; }
 
-.section-header div a:hover { color: orangered; }
+.pod-btn { background: #7ed849; }
 
-.section-footer { bottom: 0; right: 0; padding-bottom: 10px; margin: 0 auto; position: absolute; width: 100%; }
+.blog-btn { background: #49abd8; }
 
-/* >> Custom Colors Background */
-.color-home { background-color: rgba(112, 8, 235, 0.35); }
+header { background: black; }
 
-.color-about { background-color: rgba(239, 56, 40, 0.35); }
+#info { border-top: black 3px solid; border-bottom: black 3px solid; font-size: 1.6em; margin: 0 auto; padding: 8px 0; text-align: center; transition: 0.4s; width: 100%; }
 
-.color-skills { background-color: rgba(36, 233, 15, 0.35); }
+.container-bg-home { background: rgba(139, 3, 173, 0.5); }
 
-.color-projects { background-color: rgba(190, 214, 0, 0.35); }
+.info-home { background: #df7ef7; }
 
-.color-blog { background-color: rgba(4, 23, 244, 0.35); }
+.container-bg-web { background: rgba(211, 27, 27, 0.5); }
 
-.color-contact { background-color: rgba(244, 152, 4, 0.35); }
+.info-web { background: #d84949; }
 
-/* >> Custom Colors Borders */
-#home { border: 5px solid #7008eb; }
+.container-bg-pod { background: rgba(82, 211, 27, 0.5); }
 
-#about { border: 5px solid #ef3828; }
+.info-pod { background: #7ed849; }
 
-#skills { border: 5px solid #24e90f; }
+.container-bg-blog { background: rgba(36, 142, 204, 0.5); }
 
-#projects { border: 5px solid #bed600; }
+.info-blog { background: #49abd8; }
 
-#blog { border: 5px solid #0417f4; }
+.display { display: flex; flex-direction: row; margin: 28px auto; width: 90%; }
 
-#contact { border: 5px solid #f49804; }
-
-table { margin: 0 auto; }
-
-td { height: 70px; font-size: 0.8em; width: 70px; }
-
-/* > About Me Section */
-#factsArea { background-color: black; color: #ef3828; font-family: "VT323", monospace; }
-
-#nethFacts { animation: textFlash 0.8s 3; }
-
-@keyframes textFlash { 0% { color: #ef3828; }
-  49% { color: black; }
-  50% { color: black; }
-  99% { color: black; }
-  100% { color: #ef3828; } }
-.skills-card-title { font-family: "Gugi", cursive; }
-
-.skills-img { animation: spinner 2s 1; border-radius: 25px; margin: 5px; width: 75px; }
-
-.skills-card-desc { font-family: "Arvo", serif; margin: 5px auto; width: 80%; }
-
-.skills-play-pause { border-radius: 25%; font-size: 1.5em; }
-
-.skills-nav-dots { align-items: center; display: flex; justify-content: center; }
-
-.skills-nav-dots span { padding: 5px; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -o-transition: all 1s linear; transition: all 0.5s linear; }
-
-.dot-active { font-size: 2em; }
-
-@keyframes spinner { from { -moz-transform: rotateY(0deg); -ms-transform: rotateY(0deg); transform: rotateY(0deg); }
-  to { -moz-transform: rotateY(-360deg); -ms-transform: rotateY(-360deg); transform: rotateY(-360deg); } }
-.project-1, .project-2 { align-items: flex-end; background-size: cover; display: flex; flex-direction: column; width: 45%; }
-
-.project-cards { display: flex; flex-direction: row; justify-content: space-around; }
-
-.project-1 { background-image: url("/assets/img/projects/honpron.jpg"); }
-
-.project-2 { background-image: url("/assets/img/projects/90snotebook.jpg"); }
-
-.project-title { height: 100px; margin: 0; }
-
-.project-title h3 { background-color: rgba(190, 214, 0, 0.75); margin: 0; text-align: left; }
-
-.project-details { background-color: rgba(190, 214, 0, 0.75); font-size: 0.8em; font-family: "Arvo", serif; margin-top: auto; }
-
-.blog-list-item { text-align: left; }
-
-.blog-list-item h4 { margin: 4px 0; }
-
-.blog-list-item h5 { font-size: 0.6em; margin: 8px; }
-
-.blog-list-item p { font-family: "Arvo", serif; font-size: 0.8em; }
-
-.contact-form-group { display: flex; flex-direction: column; margin: 4px auto; width: 75%; }
-.contact-form-group label { text-align: left; }
-
-.contact-form-group input, .contact-form-group textarea, .contact-form-group button { font-family: "Arvo", serif; font-size: 1.1em; }
-
-.contact-submit-button { background-color: #f49804; border-color: black; }
-.contact-submit-button:hover { background-color: #ffc184; cursor: pointer; }
-
-#menu { background-color: #333; height: 100vh; position: -webkit-sticky; position: sticky; top: 0; width: 150px; }
-
-.brand { color: #eee; margin: auto; text-align: center; }
-
-.brand img { border-radius: 50%; display: block; margin: 5px auto; width: 90%; }
-
-.menu-link { color: #eee; display: block; font-family: sans-serif; padding: 5px; }
-
-.menu-link:hover { background-color: #555; color: yellow; }
-
-.menu-active { font-weight: bold; }
-
-.menu-active[data-color="home"] { color: #7008eb; }
-
-/* Menu Link Colors */
-.menu-active[data-color="about"] { color: #ef3828; }
-
-.menu-active[data-color="skills"] { color: #24e90f; }
-
-.menu-active[data-color="projects"] { color: #bed600; }
-
-.menu-active[data-color="blog"] { color: #0417f4; }
-
-.menu-active[data-color="contact"] { color: #f49804; }
+.project-card { background: #d84949; border-radius: 25px; text-align: center; width: 45%; }
+.project-card h3 { font-size: 1.3em; padding: 4px; }
+.project-card img { padding: 8px; width: 90%; }

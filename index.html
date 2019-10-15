@@ -1,17 +1,42 @@
 ---
-layout: default
-title: Home
 ---
 
-<!-- Home -->
-{% include index/home.html %}
-<!-- About Me -->
-{% include index/about.html %}
-<!-- My Skills -->
-{% include index/skills.html %}
-<!-- My Projects -->
-{% include index/projects.html %}
-<!-- My Blog -->
-{% include index/blog.html %}
-<!-- Contact Me -->
-{% include index/contact.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="container" class="container-bg-home">
+      <header>
+        <h1>Hello there, I'm Neth!</h1>
+      </header>
+      <main>
+        <div id="info" class="info-home">
+          <p>
+            I do a lot of stuff. Here are some of the hats that I wear. Which
+            one did you want to know more about?
+          </p>
+          <p>
+            By the way, I'm looking for a job. Feel free to contact me if you
+            think I'd be a good fit, or if you just want to say hi.
+          </p>
+        </div>
+        <div class="buttons">
+          <button id="web-btn" class="web-btn">Web Developer</button>
+          <button id="pod-btn" class="pod-btn">Podcaster</button>
+          <button id="blog-btn" class="blog-btn">Blogger</button>
+        </div>
+        <div class="display">
+          {% for project in site.projects %} {% include project_card.html
+          project=project %} {% endfor %}
+        </div>
+      </main>
+    </div>
+    <script src="assets/js/bundle.js"></script>
+  </body>
+</html>

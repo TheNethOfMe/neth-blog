@@ -4,279 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <nav id="menu">
-  <a class="brand" href="#" data-color="home">
-    <!-- "assets/img/nethSmile.jpeg" -->
-    <img src="/assets/img/nethSmile.jpeg" />
-    <h1>
-      <span class="radioactive">Ne</span>on
-      <span class="radioactive">Th</span>orium
-    </h1>
-  </a>
-  <a class="menu-link" data-color="about" href="#about">About Me</a>
-  <a class="menu-link" data-color="skills" href="#skills">What I Do</a>
-  <a class="menu-link" data-color="projects" href="#projects">My Projects</a>
-  <a class="menu-link" data-color="blog" href="#blog">Blog</a>
-  <a class="menu-link" data-color="contact" href="#contact">Contact Me</a>
-</nav>
-
-    <main>
-      <!-- Home -->
-<section class="visible-active" id="home" data-color="home" data-number="0">
-  <h2>
-    <span class="radioactive">Ne</span>on
-    <span class="radioactive">Th</span>orium
-  </h2>
-  <div class="article-text">
-    I’m Neth, a web developer who specializes in the MERN stack, but I do a lot
-    of other things too. Thanks for stopping by! I invite you to take a look
-    around and learn more about what I do.
-  </div>
-  <table id="grid"></table>
-</section>
-
-<!-- About Me -->
-<section id="about" data-color="about" data-number="1" tabindex="-1">
-  <header class="section-header">
-    <h2>About Me</h2>
-    <div>
-      <a href="#" class="home-link" title="Return Home"
-        ><i class="fas fa-home"></i
-      ></a>
-      <a href="#skills" title="Next Section">
-        <i class="fas fa-forward"></i>
-      </a>
-    </div>
-  </header>
-  <div class="article-text">
-    I’m a guy who likes to walk the line between designer and developer. I like
-    to work in the front-end to make eye-catching designs that anyone can use
-    and in the back-end to turn simple pages into fully functional web
-    applications.<br /><br />
-    I currently live in Kent with my amazing wife, Ellen, and our two adorable
-    cats.<br /><br />
-    A career in tech means always learning what’s new. So when I’m not acquiring
-    new skills or putting my existing ones to work, I enjoy making podcasts and
-    videos. <br /><br />I’m passionate about social justice, retro tech and
-    toys, games, animation, cooking and way too many other things to list here!
-  </div>
-  <footer id="factsArea" class="section-footer">
-    <h3>Neth Facts:</h3>
-    <span id="nethFacts">Test</span>
-  </footer>
-</section>
-
-<!-- My Skills -->
-<section id="skills" data-color="skills" data-number="2" tabindex="-1">
-  <header class="section-header">
-    <h2>What I Do</h2>
-    <div>
-      <a href="#" class="home-link" title="Return Home"
-        ><i class="fas fa-home"></i
-      ></a>
-      <a href="#projects" title="Next Section">
-        <i class="fas fa-forward"></i>
-      </a>
-      <a href="#about" title="Previous Section">
-        <i class="fas fa-backward"></i>
-      </a>
-    </div>
-  </header>
-  <div class="skills-card-area">
-    <h3 class="skills-card-title">Full Stack Development</h3>
-    <div class="skills-card-images">
-      <img class="skills-img" src="assets/img/skills/mongo.jpg" alt="text1" />
-      <img class="skills-img" src="assets/img/skills/express.jpg" alt="text2" />
-      <img class="skills-img" src="assets/img/skills/react.jpg" alt="text3" />
-      <img class="skills-img" src="assets/img/skills/node.jpg" alt="text4" />
-    </div>
-    <div class="skills-card-desc">
-      Full stack web design with Javascript is my bread and butter. I’ve built
-      several full-stack applications in the MERN stack (that is MongoDB,
-      Express, React, and Node.js) though I’ve also worked with Vue and Angular
-      in the past. I’m always excited to try out new libraries to see what they
-      can do.
-    </div>
-  </div>
-  <!-- end skills-card-area-->
-  <footer class="section-footer">
-    <button class="skills-play-pause">
-      <i class="fas fa-pause"></i>
-    </button>
-    <div class="skills-nav-dots">
-      <span tabindex="0" class="dot-active">&#8226;</span>
-      <span tabindex="0">&#8226;</span>
-      <span tabindex="0">&#8226;</span>
-      <span tabindex="0">&#8226;</span>
-    </div>
-  </footer>
-</section>
-
-<!-- My Projects -->
-<section id="projects" data-color="projects" data-number="3">
-  <header class="section-header">
-    <h2>My Projects</h2>
-    <div>
-      <a href="#" class="home-link" title="Return Home"
-        ><i class="fas fa-home"></i
-      ></a>
-      <a href="#blog" title="Next Section">
-        <i class="fas fa-forward"></i>
-      </a>
-      <a href="#skills" title="Previous Section">
-        <i class="fas fa-backward"></i>
-      </a>
-    </div>
-  </header>
-  <div class="project-cards">
-    <div class="project-1">
-      <div class="project-title"><h3>Honest Piranha</h3></div>
-      <article class="project-details">
-        This is a landing page I created for my YouTube channel and could be
-        easily adapted to other channels. It can also be used to display blog
-        entries and podcasts. It features areas for users to leave comments and
-        admin to add new entries. Many aspects of the site can be managed
-        without needed to touch the code.
-        <div class="project-links">
-          <a href="/project/honpron">
-            <i class="fas fa-info-circle"></i>
-          </a>
-          <a href="http://www.honestpiranha.com/" target="_blank">
-            <i class="fas fa-external-link-square-alt"></i>
-          </a>
-          <a href="https://github.com/TheNethOfMe/honpron">
-            <i class="fab fa-github"></i>
-          </a>
+    <div id="container" class="container-bg-home">
+      <header>
+        <h1>Hello there, I'm Neth!</h1>
+      </header>
+      <main>
+        <div id="info" class="info-home">
+          <p>
+            I do a lot of stuff. Here are some of the hats that I wear. Which
+            one did you want to know more about?
+          </p>
+          <p>
+            By the way, I'm looking for a job. Feel free to contact me if you
+            think I'd be a good fit, or if you just want to say hi.
+          </p>
         </div>
-      </article>
-    </div>
-    <div class="project-2">
-      <div class="project-title"><h3>My 90s Notebook</h3></div>
-      <article class="project-details">
-        My idea for a social media site with a heavy 90s asthetic. The site
-        allows users to create an account and leave up to six publicly available
-        posts at a time that can be viewed by their friends.
-        <div class="project-links">
-          <a href="/project/90snotebook">
-            <i class="fas fa-info-circle"></i>
-          </a>
-          <a href="http://www.my90snotebook.com/" target="_blank">
-            <i class="fas fa-external-link-square-alt"></i>
-          </a>
-          <a href="https://github.com/TheNethOfMe/new90snotebook">
-            <i class="fab fa-github"></i>
-          </a>
+        <div class="buttons">
+          <button id="web-btn" class="web-btn">Web Developer</button>
+          <button id="pod-btn" class="pod-btn">Podcaster</button>
+          <button id="blog-btn" class="blog-btn">Blogger</button>
         </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- My Blog -->
-<section id="blog" data-color="blog" data-number="4">
-  <header class="section-header">
-    <h2>Blog</h2>
-    <div>
-      <a href="#" class="home-link" title="Return Home"
-        ><i class="fas fa-home"></i
-      ></a>
-      <a href="#contact" title="Next Section">
-        <i class="fas fa-forward"></i>
-      </a>
-      <a href="#projects" title="Previous Section">
-        <i class="fas fa-backward"></i>
-      </a>
-    </div>
-  </header>
-  <ul>
-    
-    <li class="blog-list-item">
-      <a href="/tech/2018/05/06/first.html">
-        <h4>The Road to Getting This Site Up And Running</h4>
-      </a>
-      <h5>
-        Filed under Tech on 05/06/2018
-      </h5>
-      <p class="article-text">
-        <p>I’ve wanted to make a blog for awhile. Actually, I’ve wanted to make several blogs for awhile. There are a lot of different things I like to do, and it hasn’t always been easy to know what box to put things in.</p>
-
-
-      </p>
-    </li>
-    
+        <div class="display">
+           <!-- <div class="project-card">
+  <h3>My 90s Notebook</h3>
+  <h4>A fun social media project with a heavy 90s asthetic</h4>
+  <img
+    src="../assets/img/90snotebook/home.png"
+    alt="My 90s Notebook screenshot"
+  />
+  <ul class="project-card-links">
+    <li><a href="">More Info</a></li>
+    <li><a href="http://my90snotebook.com">Visit Site</a></li>
+    <li><a href="https://github.com/TheNethOfMe/my-90s-notebook">Github</a></li>
   </ul>
-  <footer class="section-footer">
-    <a href="/pages/blogs-idx.html">
-      <h3>View Blog Index</h3>
-    </a>
-  </footer>
-</section>
-
-<!-- Contact Me -->
-<section id="contact" data-color="contact" data-number="5">
-  <header class="section-header">
-    <h2>Contact me</h2>
-    <div>
-      <a href="#" class="home-link" title="Return Home"
-        ><i class="fas fa-home"></i
-      ></a>
-      <a href="#blog" title="Previous Section">
-        <i class="fas fa-backward"></i>
-      </a>
+</div> -->
+<div class="project-card">
+  <h3>My 90s Notebook</h3>
+  <h4>A fun social media project with a heavy 90s asthetic</h4>
+  <img
+    src="../assets/img/90snotebook/main.png"
+    alt="My 90s Notebook main page"
+  />
+  <ul class="project-card-links">
+    <li><a href="">More Info</a></li>
+    <li><a href="http://my90snotebook.com">Visit Site</a></li>
+    <li>
+      <a href="https://github.com/TheNethOfMe/my-90s-notebook"
+        >Github</a
+      >
+    </li>
+  </ul>
+</div>
+  <!-- <div class="project-card">
+  <h3>My 90s Notebook</h3>
+  <h4>A fun social media project with a heavy 90s asthetic</h4>
+  <img
+    src="../assets/img/90snotebook/home.png"
+    alt="My 90s Notebook screenshot"
+  />
+  <ul class="project-card-links">
+    <li><a href="">More Info</a></li>
+    <li><a href="http://my90snotebook.com">Visit Site</a></li>
+    <li><a href="https://github.com/TheNethOfMe/my-90s-notebook">Github</a></li>
+  </ul>
+</div> -->
+<div class="project-card">
+  <h3>Honest Piranha</h3>
+  <h4>A landing page for podcasts with its own CMS built from scratch</h4>
+  <img
+    src="../assets/img/honpron/main.png"
+    alt="Honest Piranha main page"
+  />
+  <ul class="project-card-links">
+    <li><a href="">More Info</a></li>
+    <li><a href="http://honestpiranha.com">Visit Site</a></li>
+    <li>
+      <a href="https://github.com/TheNethOfMe/honest-piranha"
+        >Github</a
+      >
+    </li>
+  </ul>
+</div>
+ 
+        </div>
+      </main>
     </div>
-  </header>
-  <div class="contact-area">
-    <p>
-      Thank you so much for stopping by. If you'd like to email me, you can send
-      me a message easily with the form below.
-    </p>
-    <form action="https://formspree.io/nethwebdev@gmail.com" method="POST">
-      <div class="contact-form-group">
-        <label for="name">Name</label>
-        <input type="text" name="name" />
-      </div>
-      <div class="contact-form-group">
-        <label for="email">Email</label>
-        <input type="email" name="email" />
-      </div>
-      <div class="contact-form-group">
-        <label for="message">Message</label>
-        <textarea name="message" placeholder="Test Message"></textarea>
-      </div>
-      <div class="contact-form-group">
-        <button class="contact-submit-button" type="submit">Submit</button>
-      </div>
-    </form>
-    <p class="article-text">
-      You can see more of my work on
-      <a href="https://github.com/TheNethOfMe">
-        Github<i class="fab fa-github-square"></i>
-      </a>
-      and
-      <a href="https://codepen.io/Nethhorn/">
-        CodePen<i class="fab fa-codepen"></i> </a
-      >!
-    </p>
-  </div>
-</section>
-
-
-      <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"
-      ></script>
-      <script src="assets/js/bundle.js"></script>
-    </main>
+    <script src="assets/js/bundle.js"></script>
   </body>
 </html>
