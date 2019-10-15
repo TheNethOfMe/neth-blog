@@ -1,0 +1,38 @@
+<header>
+  <div class="heading-wrap">
+    <h1>Hello, I'm Neth!</h1>
+    <nav>
+      <a href="{{ './pages/webdev' | relative_url }}" class="web-link"
+        >Web Developer</a
+      >
+      <a href="{{ './pages/podcast' | relative_url }}" class="pod-link"
+        >Podcaster</a
+      >
+      <a href="{{ './pages/blog' | relative_url }}" class="blog-link"
+        >Blogger</a
+      >
+    </nav>
+  </div>
+  <div class="info info-{{ include.class }}">
+    <p>
+      I do a lot of stuff. Here are some of the hats that I wear. Which one did
+      you want to know more about?
+    </p>
+    <p class="info-small">
+      By the way, I'm looking for a job. Feel free to contact me if you think
+      I'd be a good fit, or if you just want to say hi.
+    </p>
+  </div>
+  <div class="buttons">
+    <a href="{{ './pages/webdev' | relative_url }}" class="web-btn"
+      >Web Developer</a
+    >
+    <a href="{{ './pages/podcast' | relative_url }}" class="pod-btn"
+      >Podcaster</a
+    >
+    <a href="{{ './pages/blog' | relative_url }}" class="blog-btn">Blogger</a>
+    <!-- <button id="web-btn" class="web-btn">Web Developer</button>
+    <button id="pod-btn" class="pod-btn">Podcaster</button>
+    <button id="blog-btn" class="blog-btn">Blogger</button> -->
+  </div>
+</header>

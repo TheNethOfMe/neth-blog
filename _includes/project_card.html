@@ -1,0 +1,17 @@
+<div class="project-card">
+  <h3>{{ include.project.title }}</h3>
+  <h4>{{ include.project.desc }}</h4>
+  <img
+    src="../assets/img/{{ include.project.slug }}/main.png"
+    alt="{{ include.project.alt }}"
+  />
+  <ul class="project-card-links">
+    <li><a href="">More Info</a></li>
+    <li><a href="http://{{ include.project.link }}">Visit Site</a></li>
+    <li>
+      <a href="https://github.com/TheNethOfMe/{{ include.project.github }}"
+        >Github</a
+      >
+    </li>
+  </ul>
+</div>
