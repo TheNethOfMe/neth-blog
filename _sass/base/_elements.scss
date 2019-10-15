@@ -11,6 +11,10 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   background-image: url("../img/home-office.jpg");
   background-size: cover;
@@ -18,7 +22,6 @@ h1 {
   padding: 20px;
   font-size: 4em;
   font-weight: bold;
-  text-align: center;
   -webkit-text-fill-color: rgba(220, 220, 220, 0.5);
   -webkit-background-clip: text;
   background-clip: text;

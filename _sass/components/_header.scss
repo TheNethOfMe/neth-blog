@@ -1,3 +1,103 @@
-header {
+.heading-wrap {
   background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+    .web-link {
+      color: $web;
+    }
+    .pod-link {
+      color: $pod;
+    }
+    .blog-link {
+      color: $blog;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 8px auto;
+  width: 90%;
+  a {
+    align-items: center;
+    border: black 3px solid;
+    border-radius: 25px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+    color: black;
+    display: flex;
+    font-size: 1.4em;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    transition: 0.4s;
+    width: 200px;
+    &:hover {
+      -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75);
+      -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75);
+      box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75);
+      cursor: pointer;
+    }
+  }
+}
+
+.web-btn {
+  background: $web;
+}
+
+.pod-btn {
+  background: $pod;
+}
+
+.blog-btn {
+  background: $blog;
+}
+
+.info {
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+  font-size: 1.6em;
+  margin: 0 auto;
+  padding: 8px 0;
+  text-align: center;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.container-bg-home {
+  background: $home-bg;
+}
+.info-home {
+  background: $home;
+}
+.container-bg-web {
+  background: $web-bg;
+}
+.info-web {
+  background: $web;
+}
+.container-bg-pod {
+  background: $pod-bg;
+}
+.info-pod {
+  background: $pod;
+}
+.container-bg-blog {
+  background: $blog-bg;
+}
+.info-blog {
+  background: $blog;
+}
+
+.info-small {
+  font-size: 0.6em;
 }

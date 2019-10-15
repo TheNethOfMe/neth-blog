@@ -19,13 +19,19 @@ body { background: url("../img/home-office.jpg"); background-size: cover; height
 
 #container { height: 100%; transition: 0.4s; width: 100%; }
 
-h1 { background-image: url("../img/home-office.jpg"); background-size: cover; color: #df7ef7; padding: 20px; font-size: 4em; font-weight: bold; text-align: center; -webkit-text-fill-color: rgba(220, 220, 220, 0.5); -webkit-background-clip: text; background-clip: text; }
+a { text-decoration: none; }
+
+h1 { background-image: url("../img/home-office.jpg"); background-size: cover; color: #df7ef7; padding: 20px; font-size: 4em; font-weight: bold; -webkit-text-fill-color: rgba(220, 220, 220, 0.5); -webkit-background-clip: text; background-clip: text; }
+
+.heading-wrap { background: black; display: flex; flex-direction: row; justify-content: space-around; }
+.heading-wrap nav { display: flex; flex-direction: column; padding-top: 4px; }
+.heading-wrap nav .web-link { color: #d84949; }
+.heading-wrap nav .pod-link { color: #7ed849; }
+.heading-wrap nav .blog-link { color: #49abd8; }
 
 .buttons { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; margin: 8px auto; width: 90%; }
-
-button { border: black 3px solid; border-radius: 25px; -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); font-size: 1.4em; height: 100px; transition: 0.4s; width: 200px; }
-
-button:hover { -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); cursor: pointer; }
+.buttons a { align-items: center; border: black 3px solid; border-radius: 25px; -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75); color: black; display: flex; font-size: 1.4em; height: 100px; justify-content: center; text-align: center; transition: 0.4s; width: 200px; }
+.buttons a:hover { -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); cursor: pointer; }
 
 .web-btn { background: #d84949; }
 
@@ -33,9 +39,7 @@ button:hover { -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.75); 
 
 .blog-btn { background: #49abd8; }
 
-header { background: black; }
-
-#info { border-top: black 3px solid; border-bottom: black 3px solid; font-size: 1.6em; margin: 0 auto; padding: 8px 0; text-align: center; transition: 0.4s; width: 100%; }
+.info { border-top: black 3px solid; border-bottom: black 3px solid; font-size: 1.6em; margin: 0 auto; padding: 8px 0; text-align: center; transition: 0.4s; width: 100%; }
 
 .container-bg-home { background: rgba(139, 3, 173, 0.5); }
 
@@ -53,7 +57,9 @@ header { background: black; }
 
 .info-blog { background: #49abd8; }
 
-.display { display: flex; flex-direction: row; margin: 28px auto; width: 90%; }
+.info-small { font-size: 0.6em; }
+
+.display { display: flex; flex-direction: row; justify-content: space-around; margin: 28px auto; width: 90%; }
 
 .project-card { background: #d84949; border-radius: 25px; text-align: center; width: 45%; }
 .project-card h3 { font-size: 1.3em; padding: 4px; }
