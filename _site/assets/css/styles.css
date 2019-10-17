@@ -57,10 +57,17 @@ h1 { background-image: url("../img/home-office.jpg"); background-size: cover; co
 
 .info-blog { background: #49abd8; }
 
-.info-small { font-size: 0.6em; }
+.info-small { font-size: 0.6em; padding: 16px; }
 
-.display { display: flex; flex-direction: row; justify-content: space-around; margin: 28px auto; width: 90%; }
+.webdev-display { display: flex; flex-direction: row; justify-content: space-around; margin: 28px auto; width: 90%; }
 
 .project-card { background: #d84949; border-radius: 25px; text-align: center; width: 45%; }
 .project-card h3 { font-size: 1.3em; padding: 4px; }
 .project-card img { padding: 8px; width: 90%; }
+
+.podcast-display { background: #7ed849; margin: 8px auto; text-align: center; width: 80%; }
+.podcast-display h2 { font-size: 1.8em; padding: 8px; }
+.podcast-display h3 { font-size: 1.4em; padding: 24px 8px 16px; }
+
+.podcast-app-list { padding-bottom: 8px; }
+.podcast-app-list li { padding: 2px; }

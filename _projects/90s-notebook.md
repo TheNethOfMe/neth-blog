@@ -7,6 +7,7 @@ alt: My 90s Notebook main page
 link: my90snotebook.com
 github: my-90s-notebook
 desc: A fun social media project with a heavy 90s asthetic
+order: 2
 ---
 
 # My 90s Notebook

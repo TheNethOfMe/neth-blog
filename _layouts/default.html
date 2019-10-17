@@ -12,13 +12,13 @@
   </head>
   <body>
     <div id="container" class="container-bg-{{ page.slug }}">
-      {% include header.html class=page.slug %}
+      {% include header.html class=page.slug details=page.details %}
       <main>
         <div class="display">
           {{ content }}
         </div>
       </main>
     </div>
-    <script src="assets/js/bundle.js"></script>
+    <script src="{{ 'assets/js/bundle.js' | relative_url }}"></script>
   </body>
 </html>

@@ -7,6 +7,7 @@ alt: Honest Piranha main page
 link: honestpiranha.com
 github: honest-piranha
 desc: A landing page for podcasts with its own CMS built from scratch
+order: 1
 ---
 
 This is a landing page I've created in the MERN stack for my YouTube videos and podcasts. I created this to solve several problems I see when trying to create a personal "brand" for online entertainment.
